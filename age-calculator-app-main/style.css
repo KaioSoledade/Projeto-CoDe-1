@@ -2,17 +2,22 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 150vh ;
+
     background-color: rgb(194, 194, 194);
     font-family: 'Poppins', sans-serif;
 }
 main{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1100px;
+    background-image: url(https://cdn.discordapp.com/attachments/1089332210689134722/1089364789857357965/hum_sakura_tree_in_landscape_with_leaf_flying_and_forest_backgr_6eb71ee4-3a00-47f9-86f5-d6be5153c220.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover ;
 }
 .conteiner-calendario{
+
     border: 2px ;
     border-radius: 50px;
     border-bottom-right-radius: 250px;
@@ -23,6 +28,8 @@ main{
     height: 900px;
 
     display: flex;
+    justify-content: center;
+    align-items: center;
 
     box-shadow: 10px 10px 50px rgb(0, 0, 0);
 
@@ -67,19 +74,47 @@ main{
     height: 5px;
 
 
-    border-radius: 20px ;
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
     background-color: blueviolet ;
-    margin: 0 auto;
+    margin: 0 0 0 20px;
 }
-
-img{
+.submeter{
     display: flex;
-    justify-content: end;
+    align-items: center;
+    
+
+}
+.submeter input{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid blueviolet;
+    text-indent: -9999px;
+}
+.submeter input:hover{
+    animation: shake 0.5s;
+
 }
 
+@keyframes shake {
+    10% {
+        transform: rotate(15deg);
+    }
+    20% {
+        transform: rotate(-15deg);
+    }
+    30% {
+        transform: rotate(15deg);
+    }
+    40% {
+        transform: rotate(-15deg);
+    }
+
+}
 .setor-2 {
     width: 1100px;
-    height: 550px ;
+    height: 500px ;
 
     display: flex;
     flex-direction: column;
@@ -87,9 +122,14 @@ img{
     
 }
 
+img{
+    width: 70px;
+    border-radius: 50%;
+}
+
 .setor-2 p{
     color: black;
-    font-size: 150px;
+    font-size: 140px;
     font-weight: 800;
     font-style: italic;
 
@@ -100,7 +140,7 @@ img{
 }
 
 .setor-2 strong{
-    color: blueviolet;
+    color: #8a2be2;
     display: inline;
     font-weight: 800;
     font-size: 120px;
@@ -108,5 +148,19 @@ img{
     margin: 0 20px;
 }
 
+footer{
+    background-color: white;
+    height: 200px;
+    width: 100%;
+
+}
+
+footer .attribution{
+    font-size: 15px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
 
 
