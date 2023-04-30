@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh ;
+    background-color: rgb(194, 194, 194);
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: block;
+}
+.conteiner-calendario{
+    border: 2px ;
+    border-radius: 50px;
+    border-bottom-right-radius: 250px;
+
+    background-color: white;
+
+    width: 1300px;
+    height: 900px;
+
+    display: flex;
+
+    box-shadow: 10px 10px 50px rgb(0, 0, 0);
+
+
+
+}
+
+.resposta{
+
+    margin: 60px 20px;
+}
+
+.resposta label{
+    font-size: 30px;
+    display: block;
+
+    width: 100px;
+    padding: 10px 10px;
+
+
+}
+
+.resposta input{
+    border: 1.5px solid rgb(207, 206, 206);
+    border-radius: 10px;
+    width: 100px;
+    height: 100px ;
+    font-size: 30px;
+    padding: 0 50px;
+}
+
+.setor-1{
+    display: flex;
+    justify-content: space-around;
+
+    width: 1100px;
+    margin: 20px 0;
+}
+
+.divisao{
+    width: 1000px;
+    height: 5px;
+
+
+    border-radius: 20px ;
+    background-color: blueviolet ;
+    margin: 0 auto;
+}
+
+img{
+    display: flex;
+    justify-content: end;
+}
+
+.setor-2 {
+    width: 1100px;
+    height: 550px ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.setor-2 p{
+    color: black;
+    font-size: 150px;
+    font-weight: 800;
+    font-style: italic;
+
+
+
+    margin: 10px 0 10px 30px;
+    display: inline; 
+}
+
+.setor-2 strong{
+    color: blueviolet;
+    display: inline;
+    font-weight: 800;
+    font-size: 120px;
+
+    margin: 0 20px;
+}
+
+
+
